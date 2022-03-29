@@ -93,10 +93,18 @@ ul a{
 }
 .title{
 text-align: center;
+  position: absolute;
+  top:300px;
+  right:150px;
 }
 .title h1{
+   color:red;
   font-family:'Dancing Script', cursive;
   font-size:45px;
+}
+.title h2{
+  color:white;
+  font-size: 30px;
 }
 .serviceHead{
   text-align: center;
