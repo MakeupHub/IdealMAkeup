@@ -95,10 +95,10 @@ ul a{
 text-align: center;
 position: relative;
 left: 200px;
-top: -600px;
-color:black;
+top: -500px;
 }
 .title h1{
+	color:black;
   font-family:'Dancing Script', cursive;
   font-size:45px;
 }
