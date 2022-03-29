@@ -93,9 +93,9 @@ ul a{
 }
 .title{
   text-align: center;
-/*   position: absolute;
+  position: absolute;
   top:220px;
-  right:250px; */
+  right:250px;
 }
 .title h1{
   font-family:'Dancing Script', cursive;
