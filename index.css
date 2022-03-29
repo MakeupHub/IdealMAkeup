@@ -93,12 +93,8 @@ ul a{
 }
 .title{
 text-align: center;
-position: absolute;
-left: 200px;
-top: -500px;
 }
 .title h1{
-	color:black;
   font-family:'Dancing Script', cursive;
   font-size:45px;
 }
