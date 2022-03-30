@@ -321,10 +321,10 @@ textarea {
 
 @media (max-width: 768px) {
   .navbar {
-    width: 86.9%;
+    width: 97%;
   }
   #headImg{
-    width:86.9%;
+    width:97%;
   }
   .title{
     width:250px;
@@ -341,10 +341,10 @@ textarea {
     font-size:40px;
   }
   #about {
-    width:86.9%;
+    width:97%;
   }
   #services{
-    width:86.9%;
+    width:97%;
     height:240vh;
   }
   .serviceGallery{
@@ -364,10 +364,10 @@ textarea {
     height:400px;
   }
   #gallery{
-    width:86.9%;
+    width:97%;
   }
   #contact{
-    width:86.9%;
+    width:97%;
     height:80vh;
   }
   #container{
@@ -377,7 +377,7 @@ textarea {
     left:90px;
   }
   .footer{
-    width:86%;
+    width:97%;
   }
 }
 
