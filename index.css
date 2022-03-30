@@ -446,16 +446,30 @@ textarea {
     margin-top: 50px;
   }
 }
-@media (max-width: 360px){
+@media (max-width: 377px){
   .card{
-    width:33vh;
+    width:37vh;
     height:30vh;
     /* background:#B78C93; */
   }
+  #services{
+    height:205vh;
+  }
+  .serviceGallery div:not(:first-child){
+    margin-top: 80px;
+  }
   #container{
     transform: scale(0.6,0.6);
-    margin: 0 auto;
     position: absolute;
+    bottom:-3050px;
     left:-50px;
+  }
+  .footer{
+    height:10vh;
+  }
+  .title{
+    position: absolute;
+    top:190px;
+    right:-10px;
   }
 }
