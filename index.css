@@ -9,6 +9,9 @@
 html{
   scroll-behavior: smooth;
 }
+::placeholder{
+  font-weight: bold;
+}
 #headImg{
   width:100%;
   height:100vh;
@@ -36,9 +39,8 @@ html{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* background-color:green; */
-  /* margin-top: 10px; */
 }
+
 .container{
   width: 80%;
 }
@@ -59,13 +61,62 @@ ul a{
   height: 100vh;
 }
 #about {
-  background-color: lightblue;
-  height: 100vh;
+  /* background-color: lightblue; */
+  height: 190vh;
+  padding:90px;
 }
+.aboutcontent h1{
+  font-size:2.7em;;
+  color:palevioletred;
+}
+.aboutcontent h2{
+  margin-top:15px;
+  font-size:4em;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.aboutcontainer{
+  display: flex;
+  justify-content: space-around;
+}
+.aboutimg{
+  width: 800px;
+  height:1200px;
+}
+article{
+  margin-top:15px;
+  margin-right: 15px;
+  font-family: "Spartan", sans-serif;
+  line-height: 2em;
+  color:peru;
+}
+
+
+
+
 #services {
-  background-color: #E26472;
   height: 100vh;
 }
+.serviceGallery{
+  display:flex;
+  justify-content:space-around;
+}
+.serviceimg{
+  border-radius: 50px;
+  height:60vh;
+  width:40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.serviceHead{
+  text-align: center;
+}
+.serviceHead h2{
+  font-family:'Dancing Script', cursive;
+  font-size:50px;
+}
+
+
 #gallery {
   background-color: lightslategrey;
   padding:10px;
@@ -75,7 +126,7 @@ ul a{
   background-image: url("/images/contact-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: auto;
 }
 .gallDiv{
   display: flex;
@@ -97,13 +148,7 @@ ul a{
   font-weight: bold;
   font-size: 1.8em;
 }
-.serviceHead{
-  text-align: center;
-}
-.serviceHead h2{
-  font-family:'Dancing Script', cursive;
-  font-size:50px;
-}
+
 .card{
   height:60vh;
   width:40vh;
@@ -113,17 +158,7 @@ ul a{
   transform:scale(1.1,1.1);
   transition: 0.8s;
 }
-.serviceGallery{
-  display:flex;
-  justify-content:space-around;
-}
-.serviceimg{
-  border-radius: 50px;
-  height:60vh;
-  width:40vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .footer{
   background-color:black;
   color:white;
@@ -170,8 +205,7 @@ textarea {
 #container {
   border: solid 3px #474544;
   max-width: 768px;
-  position: relative;
-  left: 600px;
+  margin:0 auto;
   transform:scale(0.7,0.7);
 }
 
@@ -180,7 +214,7 @@ form {
   margin: 50px 0;
 }
 
-h1 {
+#container h1 {
   color: #474544;
   font-size: 32px;
   font-weight: 700;
@@ -372,9 +406,6 @@ textarea {
   }
   #container{
     transform: scale(0.7,0.7);
-    margin: 0 auto;
-    position: absolute;
-    left:90px;
   }
   .footer{
     width:100%;
@@ -391,7 +422,7 @@ textarea {
   .title{
     position: absolute;
     top:250px;
-    right:10px;
+    right:0px;
   }
   .title h2{
     font-size:0.8em;
@@ -405,39 +436,32 @@ textarea {
     height: 50vh;
   }
   .serviceimg{
-    /* transform:translateX(20px); */
     height:300px;
     width:280px;
   }
   .card{
     width:22vh;
     height:30vh;
-    /* background:#B78C93; */
   }
   #services{
     height:150vh;
   }
   #container{
     transform: scale(0.7,0.7);
-    margin: 0 auto;
-    position: absolute;
-    left:-50px;
   }
   .footer{
-    height:50px;
+    height:70px;
   }
 }
 
 @media (max-width: 420px) {
   .serviceimg{
-    /* transform:translateX(20px); */
     height:250px;
     width:250px;
   }
   .card{
     width:29vh;
     height:30vh;
-    /* background:#B78C93; */
   }
   #services{
     height:175vh;
@@ -450,7 +474,6 @@ textarea {
   .card{
     width:37vh;
     height:30vh;
-    /* background:#B78C93; */
   }
   #services{
     height:205vh;
@@ -460,9 +483,6 @@ textarea {
   }
   #container{
     transform: scale(0.6,0.6);
-    position: absolute;
-    bottom:-3050px;
-    left:-50px;
   }
   .title{
     position: absolute;
