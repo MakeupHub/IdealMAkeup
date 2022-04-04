@@ -118,7 +118,7 @@ ul a{
   margin-left: 20px;
 }
 article{
-  text-align: left;
+  text-align: justify;
   margin: 40px auto;
   font-family: "Spartan", sans-serif;
   line-height: 2em;
@@ -397,9 +397,9 @@ textarea {
     width: 450px;
   }
   article{
-    text-align: center;
+    text-align:justify;
     font-family: "Spartan", sans-serif;
-    font-size:1.2em;
+    font-size:1.5em;
     line-height: 2em;
     color:peru;
   }
@@ -471,7 +471,7 @@ textarea {
   }
   .title h1{
     width:300px;
-    font-size:1.8em;
+    font-size:2em;
   }
   #home {
     height: auto;
@@ -509,7 +509,7 @@ textarea {
   }
   .title{
     position: absolute;
-    top:250px;
+    top:300px;
     right:-150px;
   }
 }
