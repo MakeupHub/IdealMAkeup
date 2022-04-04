@@ -454,7 +454,7 @@ textarea {
     display:none;
   }
   #headImg{
-    height:50vh;
+    height:70vh;
   }
   .aboutimg{
     height:50vh;
@@ -474,7 +474,7 @@ textarea {
     font-size:1.8em;
   }
   #home {
-    height: 50vh;
+    height: auto;
   }
   .serviceimg{
     height:300px;
