@@ -129,7 +129,7 @@ article{
 
 /*-------------------------------------------------------- Services----------------------------------------------- */
 #services{
-  background-image: url("/images/services-bg.png");
+  background-image: url("services-bg.png");
   background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
