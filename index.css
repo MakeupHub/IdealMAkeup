@@ -129,7 +129,7 @@ article{
 
 /*-------------------------------------------------------- Services----------------------------------------------- */
 #services{
-  background-image: url("services-bg.png");
+  background-image: url("/images/services-bg.png");
   background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
@@ -187,7 +187,7 @@ article{
 
 /*------------------------------------------------------------ Contact--------------------------------- */
 #contact {
-  background-image: url("contact-bg.png");
+  background-image: url("/images/contact-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
