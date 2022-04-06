@@ -57,6 +57,7 @@ ul a{
 /*---------------------------------------------------------------------- home -------------------------------------------------- */
 #home {
   width: 100%;
+  /* background-color: coral; */
   margin-top: 70px;
   height: auto;
 }
@@ -117,7 +118,7 @@ ul a{
   margin-left: 20px;
 }
 article{
-  text-align: justify;
+  text-align: left;
   margin: 40px auto;
   font-family: "Spartan", sans-serif;
   line-height: 2em;
@@ -136,8 +137,9 @@ article{
   width: auto;
 }
 .serviceGallery{
+  /* background-color: blue; */
   display:flex;
-  justify-content:space-evenly;
+  justify-content:space-around;
 }
 .serviceimg{
   border-radius: 50px;
@@ -162,13 +164,13 @@ article{
 }
 .card-1{
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
   width:600px;
-  /* background-color:aqua; */
+  /* background-color:chartreuse; */
 }
 .card-2{
   display: flex;
-  justify-content:space-between;
+  justify-content:space-around;
   width:600px;
   /* background-color:aqua; */
 }
@@ -176,12 +178,69 @@ article{
 /*------------------------------------------------------------ gallery--------------------------------- */
 #gallery {
   background-color: white;
-  padding:10px;
+  padding-top: 10px;
   height: 100vh;
 }
-.gallDiv{
-  display: flex;
+.img7{
+  width:290px;
+  height:650px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.img8{
+  width:350px;
+  height:325px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img9{
+  width:350px;
+  height:325px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5px;
+}
+.img3{
+  width:350px;
+  height:325px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5px;
+}
+.img17{
+  width:350px;
+  height:325px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5px;
+}
+.img10{
+  width:500px;
+  height:650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fleximg{
+  display:flex;
+  flex-direction: column;
+  padding:0 5px 0 5px;
+}
+.imgcontainer1{
+  display:inline-flex;
+  padding:5px;
+}
+.imgContainer0{
+  display:inline-flex;
+}
+.imgcontainer3{
+  display:flex;
+  flex-direction: column;
+  padding-left: 5px;
+}
+.imgContainer_0{
+  display:inline-flex;
+}
+
 
 
 /*------------------------------------------------------------ Contact--------------------------------- */
@@ -396,9 +455,9 @@ textarea {
     width: 450px;
   }
   article{
-    text-align:justify;
+    text-align: center;
     font-family: "Spartan", sans-serif;
-    font-size:1.5em;
+    font-size:1.2em;
     line-height: 2em;
     color:peru;
   }
@@ -453,7 +512,7 @@ textarea {
     display:none;
   }
   #headImg{
-    height:70vh;
+    height:50vh;
   }
   .aboutimg{
     height:50vh;
@@ -470,10 +529,10 @@ textarea {
   }
   .title h1{
     width:300px;
-    font-size:2em;
+    font-size:1.8em;
   }
   #home {
-    height: auto;
+    height: 50vh;
   }
   .serviceimg{
     height:300px;
@@ -508,7 +567,7 @@ textarea {
   }
   .title{
     position: absolute;
-    top:300px;
+    top:250px;
     right:-150px;
   }
 }
